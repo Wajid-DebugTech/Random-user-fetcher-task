@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random User Fetcher</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .user {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .user img {
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .user-info {
+            line-height: 1.5;
+        }
+
+        .load-more {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .load-more:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Random User Fetcher</h1>
+    <div id="user-container"></div>
+    <button class="load-more" id="load-more">Load More</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
